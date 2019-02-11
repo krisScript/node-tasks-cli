@@ -6,6 +6,12 @@
   "license": "MIT",
   "preferGlobal": true,
   "bin": "./commands.js",
+  "scripts":{
+    "start":"tasks-cli",
+    "link":"link tasks-cli",
+    "unlink":"unlink tasks-cli",
+    "start-dev":"node commands.js"
+  },
   "dependencies": {
     "commander": "^2.19.0",
     "inquirer": "^6.2.2",
